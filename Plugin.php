@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\Blueboard;
+namespace Kanboard\Plugin\Trelloboard;
 
 use Kanboard\Core\Plugin\Base;
 
@@ -8,12 +8,12 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->hook->on("template:layout:css", array("template" => "plugins/Blueboard/skin.css"));
+        $this->hook->on("template:layout:css", array("template" => "plugins/Trelloboard/skin.css"));
     }
 
     public function getPluginName()
     {
-        return 'Blueboard';
+        return 'Trello CSS-style';
     }
 
     public function getPluginDescription()
@@ -23,7 +23,7 @@ class Plugin extends Base
 
     public function getPluginAuthor()
     {
-        return 'bgibout';
+        return 'mvpngn';
     }
 
     public function getPluginVersion()
@@ -33,6 +33,6 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/bgibout/blueboard';
+        return 'https://github.com/mvpngn/blueboard';
     }
 }
