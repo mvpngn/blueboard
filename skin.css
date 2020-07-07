@@ -283,6 +283,10 @@ input[type="number"], input[type="date"], input[type="email"], input[type="passw
     color: #343a40;
 }
 
+.sidebar-container{
+    background: #ebecf0;
+}
+
 #modal-box {
     padding: 20px 20px 30px 20px;
 }
