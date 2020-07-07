@@ -86,7 +86,7 @@ header {
 .project-header{
     background: #ebecf0;
     padding-bottom: 6px;
-    margin-bottom:0px;
+    margin-bottom:0px; 
 }
 
 header h1 {
@@ -358,4 +358,8 @@ table.table-fixed th, table.table-fixed td {
 	.sidebar {
 	max-width: 100%;
 	}
+}
+
+.form-login{
+    color:#ffffff;
 }
