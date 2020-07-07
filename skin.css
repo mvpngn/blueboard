@@ -1,6 +1,6 @@
 body {
     color: #868ba1;
-    background-color: #0079bf;
+    background-color: #0079bf !important;
     font-family: "Roboto", "Helvetica Neue", Arial, sans-s
 }
 
@@ -86,6 +86,7 @@ header {
 .project-header{
     background: #ebecf0;
     padding-bottom: 6px;
+    margin-bottom:0px;
 }
 
 header h1 {
