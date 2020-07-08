@@ -23,7 +23,7 @@ class Plugin extends Base
 
     public function getPluginAuthor()
     {
-        return 'mvpngn';
+        return 'MVP Engine';
     }
 
     public function getPluginVersion()
