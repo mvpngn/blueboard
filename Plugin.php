@@ -8,7 +8,8 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->hook->on("template:layout:css", array("template" => "plugins/Trelloboard/skin.css"));
+        $this->hook->on("template:layout:css", array("template" => "plugins/Trelloboard/Assets/skin.css"));
+        $this->hook->on("template:layout:js", array("template" => "plugins/Trelloboard/Assets/trello.js"));
     }
 
     public function getPluginName()
